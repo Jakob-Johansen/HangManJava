@@ -1,4 +1,4 @@
-public class WordValidate {
+public class StringValidate {
 
     public String PickWord() {
         String userInput;
@@ -18,7 +18,7 @@ public class WordValidate {
         return userInput;
     }
 
-    public static boolean Validate(String string, String errorMsg) {
+    public boolean Validate(String string, String errorMsg) {
         // if String word is empty.
         if (string.length() == 0) {
             System.out.println("The input field must not be empty");
