@@ -5,7 +5,7 @@ public class StringValidate {
         while (true) {
             try {
                 System.out.print("Your word/words: ");
-                userInput = MainClass.scanner.nextLine().trim();
+                userInput = MainClass.scanner.nextLine().toLowerCase().trim();
                 
                 // if true.
                 if (Validate(userInput, "Your word/words can only contain letters")) {
